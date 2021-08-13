@@ -18,26 +18,10 @@ for i in arr:
 		else:
 			arr2.extend([a ,"+" + str(int(i)).zfill(2), a])
 	else:
-		arr2.append(i)
-        
-f_str2 = ''
-count = 0
+		arr2.appen
 
 for i in arr2:
-    if i == a:
-        count += 1
-        if count % 2 == 0:
-            if i == a:
-                f_str2 += f'{i} '
-        else: 
-            f_str2 += f'{i}'
-    elif isnumber(i):
-        f_str2 += f'{i}'
-    else:
-        f_str2 += f'{i} '
 
-print("решение 2")
-print(f_str2)
 
 
 # 3я задача
