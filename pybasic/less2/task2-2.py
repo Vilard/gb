@@ -14,23 +14,22 @@ for i in arr:
 		if i[:1] != '+':
 			arr2.extend([a, i.zfill(2), a])
 		else:
-			print("+" + str(int(i)).zfill(2))
 			arr2.extend([a ,"+" + str(int(i)).zfill(2), a])
 	else:
 		arr2.append(i)
-# итерпояция срок не работает старая версия python 3.5.2 (f'{1+1}')
-# нужна 64 разрндная ОС для того чтобы поставить версию 3.6
-# или настраивать удаленное соединения на андройд
+
+
 
 f = ''
 for i in arr2:
-	# f +=   f'c/ {i}'
+	if i == '"':
+		f += i
+		print(i)
 
-# print(i)
-# print(f)
-print(f"{1}")
-# print(str(arr2))
-	
+print (i)
+
+# print(list(map(' ', arr2)))
+	# print(dir(map))
 
 
 
