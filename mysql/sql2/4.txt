@@ -1,0 +1,2 @@
+ 1076  mysqldump mysql -u root -p  help_keyword | tail -n100 > help_keyword.sql 
+ 1077  history > 4.txt
