@@ -1,0 +1,3 @@
+ 1035  mysqldump example > example.sql -u root -p
+ 1036  mysql sample < example.sql -u root -p
+ 1037  history >3.txt
