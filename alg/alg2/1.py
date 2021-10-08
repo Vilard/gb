@@ -1,3 +1,9 @@
+# не сделано
+
+
+
+
+
 import sys
 # while put2 !=0:
  
