@@ -12,7 +12,9 @@
     появлялось сообщение: "вы навели на textarea" -->
 
     <script>
-        
+    		let f = () => console.log("вы навели на textarea")
+        document.querySelector("textarea").addEventListener("mouseover",f)
+
     </script>
 </body>
 </html>
