@@ -1,0 +1,39 @@
+[   
+ 
+    {
+        "model": "mainapp.productcategory",
+        "pk": 1,
+        "fields": {
+            "name": "стулья",
+            "description": "фвыфв",
+            "created": "2021-12-26",
+            "updated": "2021-12-26"
+        }
+    },
+    {
+        "model": "mainapp.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "стулья",
+            "image": "",
+            "short_desc": "adasd",
+            "description": "gsdg",
+            "price": "0.00",
+            "quantity": 0
+        }
+    },
+    {
+        "model": "mainapp.product",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "стулья",
+            "image": "products_images/shopping.png",
+            "short_desc": "",
+            "description": "",
+            "price": "0.00",
+            "quantity": 0
+        }
+    }
+]

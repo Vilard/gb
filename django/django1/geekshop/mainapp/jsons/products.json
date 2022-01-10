@@ -1,0 +1,47 @@
+[    
+    {
+        "category": 1,
+        "name": "лампа",
+        "image": "products_images/shopping.png",
+        "short_desc": "short description",
+        "description": "long description",
+        "price": "8345.00",
+        "quantity": 10
+    },
+    {
+        "category": 2,
+        "name": "стул",
+        "image": "products_images/shopping.png",
+        "short_desc": "short description",
+        "description": "long description",
+        "price": "9999.99",
+        "quantity": 12
+    },
+    {
+        "category": 3,
+        "name": "sonthingCat3",
+        "image": "products_images/shopping.png",
+        "short_desc": "short description",
+        "description": "long description",
+        "price": "0.00",
+        "quantity": 22
+    },
+    {
+        "category": 4,
+        "name": "sonthingCat4",
+        "image": "products_images/shopping.png",
+        "short_desc": "short description",
+        "description": "long description",
+        "price": "30240.00",
+        "quantity": 10
+    },
+    {
+        "category": 2,
+        "name": "sonthingCat5",
+        "image": "products_images/shopping.png",
+        "short_desc": "short description",
+        "description": "long description",
+        "price": "1020.00",
+        "quantity": 30
+    }   
+]
