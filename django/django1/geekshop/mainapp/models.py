@@ -1,20 +1,20 @@
 from django.db import models
-from django.db.models.base import Model
+# from django.db.models.base import Model
 from django.db.models.deletion import CASCADE
 
-# Create your models here.
+
 class ProductCategory(models.Model):
     name = models.CharField(verbose_name='имя', max_length=64, unique=True)
-    description = models.TextField(verbose_name='описание', blank=True)
+    description = models.TextField(verbose_name="описание", blank=True)
     
     created = models.DateField(auto_now_add=True)
     updated = models.DateField(auto_now=True)
     
     def __str__(self):
-        return self.name
+        return self.pk 
+
 
 class Product(models.Model):
-    
     category = models.ForeignKey(
         ProductCategory,
         on_delete=CASCADE,
