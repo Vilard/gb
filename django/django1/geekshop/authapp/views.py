@@ -63,7 +63,8 @@ def edit(request):
         edit_form = ShopUserEditForm(instance=request.user)
 
     context = {
-        title: title,
-        edit_form: edit_form,
+        "title": title,
+        "edit_form": edit_form,
     }
+    
     return render(request, 'authapp/edit.html', context)
